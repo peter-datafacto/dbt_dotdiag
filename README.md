@@ -9,10 +9,10 @@ While dbt’s interactive GUI is excellent for exploration, it presents signific
 
 ## A Comparison
 
-**Figure 1** shows the full model lineage for a project with 81 nodes as rendered by the dbt GUI. 
-```
-fig 1
-```
+**Figure 1** shows the full model lineage for a project with 81 nodes as rendered by the dbt GUI.
+
+<img scr="example/diagrams/fig1_dbt_lin_graph_example.png" >
+
 In contrast, **Figure 2** offers a close-up of a 20-model subset with four levels of dependency, representing the type of granular reference a user might frequently require for analysis. 
 ```
 fig 2

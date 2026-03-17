@@ -93,7 +93,7 @@ Imagine you are tasked with supporting a new marketing initiative related to ema
 
 After identifying three key models related to email engagement and results via the dbt documentation portal, the immediate goal is to map their complete upstream lineage. This "bottom-up" view reveals every dependency—from raw sources to the final reporting layer—providing a comprehensive map of the data supply chain for these specific targets.
 
-> **Note on Paths:** For clarity, absolute directory paths have been omitted from the following commands.
+> **Note on Paths:** The CLI commands used to generate these diagrams are available in example/scripts/dbt_dotdiag_example_cmds.md. For clarity, file paths for the Python source, manifest, and output have been omitted in the examples below.
 
 **Execution:**
 
